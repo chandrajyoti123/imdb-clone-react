@@ -1,0 +1,9 @@
+.popular-section{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}

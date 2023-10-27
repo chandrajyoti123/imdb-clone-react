@@ -4,6 +4,7 @@ import Home from './view/Home/Home';
 import Popular from './view/Popular/Popular';
 import UpComing from './view/UpComing/UpComing';
 import TopRated from './view/TopRated/TopRated';
+import DetailedPage from './view/DetailedPage/DetailedPage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 const router=createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router=createBrowserRouter([
     {
         path:"/upcoming",
         element:<UpComing/>
+    },
+    {
+        path:"/detailed/:id",
+        element:<DetailedPage/>
     },
     
 ])
